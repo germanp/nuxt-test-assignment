@@ -54,11 +54,16 @@ const head: NuxtConfiguration['head'] = {
   ]
 }
 
+const plugins: NuxtConfiguration['plugins'] = [
+  { ssr: false, src: '~/plugins/vue-skyicons.ts' }
+]
+
 const config: NuxtConfiguration = {
   env,
   head,
   modules,
   build,
+  plugins,
   loading: {
     color: '#3B8070'
   },
