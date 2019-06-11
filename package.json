@@ -9,7 +9,6 @@
     "bootstrap": "4.3.1",
     "bootstrap-vue": "2.0.0-rc.15",
     "dark-sky-api": "^0.6.32",
-    "localforage": "^1.7.3",
     "lodash": "4.17.11",
     "node-sass": "4.12.0",
     "nuxt": "2.8.1",
